@@ -1,0 +1,194 @@
+<!--
+  Generated template for the HolidayDestinationsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>HolidayDestinations</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content class="c">
+
+  <ion-slides #slides>
+
+    <ion-slide>
+
+      <h3>Question 1</h3>
+
+      <flash-card [isFlipped]="flashCardFlipped1">
+        <div class="flash-card-front">
+          <img src="../../assets/imgs/hauweii.jpg" alt="">
+        </div>
+        <div class="flash-card-back">Hawaii</div>
+      </flash-card>
+
+      <h3>What is this?</h3>
+
+      <ion-list no-lines radio-group>
+
+        <ion-item class="io">
+          <ion-label>1. Hawaii</ion-label>
+          <ion-radio value="Hawaii" #answer1 (click)="selectAnswer1(answer1.value)"></ion-radio>
+        </ion-item>
+
+        <ion-item class="io">
+          <ion-label>2. Dubai</ion-label>
+          <ion-radio value="Dubai" #answer2 (click)="selectAnswer1(answer2.value)"></ion-radio>
+        </ion-item>
+
+        <ion-item class="io">
+          <ion-label>3. Austria</ion-label>
+          <ion-radio value="Austria" #answer3 (click)="selectAnswer1(answer3.value)"></ion-radio>
+        </ion-item>
+      </ion-list>
+    </ion-slide>
+  </ion-slides>
+  <br>
+  <ion-slides #slides>
+
+    <ion-slide>
+
+      <h3>Question 2</h3>
+
+      <flash-card [isFlipped]="flashCardFlipped2">
+        <div class="flash-card-front">
+          <img src="../../assets/imgs/india.png" alt="">
+        </div>
+        <div class="flash-card-back">India</div>
+      </flash-card>
+
+      <h3>What is this?</h3>
+
+      <ion-list no-lines radio-group>
+
+        <ion-item class="io">
+          <ion-label>1. Asia</ion-label>
+          <ion-radio value="Asia" #answer21 (click)="selectAnswer2(answer21.value)"></ion-radio>
+        </ion-item>
+
+        <ion-item class="io">
+          <ion-label>2. India</ion-label>
+          <ion-radio value="India" #answer22 (click)="selectAnswer2(answer22.value)"></ion-radio>
+        </ion-item>
+
+        <ion-item class="io">
+          <ion-label>3. Iran</ion-label>
+          <ion-radio value="Iran" #answer23 (click)="selectAnswer2(answer23.value)"></ion-radio>
+        </ion-item>
+      </ion-list>
+    </ion-slide>
+  </ion-slides>
+  <br>
+  <ion-slides #slides>
+
+    <ion-slide>
+
+      <h3>Question 3</h3>
+
+      <flash-card [isFlipped]="flashCardFlipped3">
+        <div class="flash-card-front">
+          <img src="../../assets/imgs/monaco.jpg" alt="">
+        </div>
+        <div class="flash-card-back">Monaco</div>
+      </flash-card>
+
+      <h3>What is this?</h3>
+
+      <ion-list no-lines radio-group>
+
+        <ion-item class="io">
+          <ion-label>1. Indonesia</ion-label>
+          <ion-radio value="Indonesia" #answer31 (click)="selectAnswer3(answer31.value)"></ion-radio>
+        </ion-item>
+
+        <ion-item class="io">
+          <ion-label>2. Spain</ion-label>
+          <ion-radio value="Spain" #answer32 (click)="selectAnswer3(answer32.value)"></ion-radio>
+        </ion-item>
+
+        <ion-item class="io">
+          <ion-label>3. Monaco</ion-label>
+          <ion-radio value="Monaco" #answer33 (click)="selectAnswer3(answer33.value)"></ion-radio>
+        </ion-item>
+      </ion-list>
+    </ion-slide>
+  </ion-slides>
+  <br>
+  <ion-slides #slides>
+
+    <ion-slide>
+
+      <h3>Question 4</h3>
+
+      <flash-card [isFlipped]="flashCardFlipped4">
+        <div class="flash-card-front">
+          <img src="../../assets/imgs/Flag_of_Burundi.svg.png" alt="">
+        </div>
+        <div class="flash-card-back">Burundi</div>
+      </flash-card>
+
+      <h3>What is this?</h3>
+
+      <ion-list no-lines radio-group>
+
+        <ion-item class="io">
+          <ion-label>1. Burundi</ion-label>
+          <ion-radio value="Burundi" #answer41 (click)="selectAnswer4(answer41.value)"></ion-radio>
+        </ion-item>
+
+        <ion-item class="io">
+          <ion-label>2. Venezuela</ion-label>
+          <ion-radio value="Venezuela" #answer42 (click)="selectAnswer4(answer42.value)"></ion-radio>
+        </ion-item>
+
+        <ion-item class="io">
+          <ion-label>3. South Africa</ion-label>
+          <ion-radio value="South Africa" #answer43 (click)="selectAnswer4(answer43.value)"></ion-radio>
+        </ion-item>
+      </ion-list>
+    </ion-slide>
+  </ion-slides>
+  <br>
+  <div>
+    <ion-slides #slides>
+
+      <ion-slide>
+
+        <h3>Question 5</h3>
+
+        <flash-card [isFlipped]="flashCardFlipped5">
+          <div class="flash-card-front">
+            <img src="../../assets/imgs/Romania.png" alt="">
+          </div>
+          <div class="flash-card-back">Chad</div>
+        </flash-card>
+
+        <h3>What is this?</h3>
+
+        <ion-list no-lines radio-group>
+
+          <ion-item class="io">
+            <ion-label>1. Romania</ion-label>
+            <ion-radio value="Romania" #answer51 (click)="selectAnswer5(answer51.value)"></ion-radio>
+          </ion-item>
+
+          <ion-item class="io">
+            <ion-label>2. Chad</ion-label>
+            <ion-radio value="Chad" #answer52 (click)="selectAnswer5(answer52.value)"></ion-radio>
+          </ion-item>
+
+          <ion-item class="io">
+            <ion-label>3. Brasil</ion-label>
+            <ion-radio value="Brasil" #answer53 (click)="selectAnswer5(answer53.value)"></ion-radio>
+          </ion-item>
+        </ion-list>
+      </ion-slide>
+    </ion-slides>
+  </div>
+  <button class="btn" ion-button (click)="Sent()">Submit</button>
+</ion-content>
